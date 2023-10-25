@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node src/js/mycode.js",
+    "test": "node src/js/mycode.test.js",
     "format": "prettier -w src/js/mycode.js",
     "patch": "npm version patch"
   },
