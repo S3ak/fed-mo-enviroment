@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "node src/js/mycode.js",
-    "format": "prettier -w src/js/mycode.js"
+    "format": "prettier -w src/js/mycode.js",
+    "patch": "npm version patch"
   },
   "repository": {
     "type": "git",
