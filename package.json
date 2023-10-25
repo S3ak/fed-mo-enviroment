@@ -1,6 +1,6 @@
 {
   "name": "fed-mo-enviroment",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "This is a lesson activity example",
   "main": "index.js",
   "type": "module",
