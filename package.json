@@ -1,0 +1,22 @@
+{
+  "name": "fed-mo-enviroment",
+  "version": "1.0.0",
+  "description": "This is a lesson activity example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S3ak/fed-mo-enviroment.git"
+  },
+  "keywords": [
+    "workflow"
+  ],
+  "author": "Monde Sineke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S3ak/fed-mo-enviroment/issues"
+  },
+  "homepage": "https://github.com/S3ak/fed-mo-enviroment#readme"
+}
