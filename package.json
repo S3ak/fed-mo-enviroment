@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/S3ak/fed-mo-enviroment/issues"
   },
-  "homepage": "https://github.com/S3ak/fed-mo-enviroment#readme"
+  "homepage": "https://github.com/S3ak/fed-mo-enviroment#readme",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
 }
