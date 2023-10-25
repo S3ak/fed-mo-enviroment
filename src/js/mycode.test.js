@@ -1,10 +1,12 @@
-import { dadJoke } from "./mycode.js";
+import dadJoke from './mycode';
 
-export async function testDadJoke() {
+export default async function testDadJoke() {
   const joke = await dadJoke();
   const testPasses = Boolean(joke);
+  // eslint-disable-next-line no-console
   console.log(joke);
-  console.log("Dad Joke Test:", testPasses ? "PASSED" : "FAILED");
+  // eslint-disable-next-line no-console
+  console.log('Dad Joke Test:', testPasses ? 'PASSED' : 'FAILED');
   return testPasses;
 }
 
