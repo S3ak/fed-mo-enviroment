@@ -1,4 +1,4 @@
-import joker from "one-liner-joke";
+import joker from "give-me-a-joke";
 
 // Get a random joke
-console.log(joker.getRandomJoke().body);
+joker.getRandomDadJoke(console.log);
