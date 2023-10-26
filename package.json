@@ -9,7 +9,8 @@
     "format": "prettier -w src/js/mycode.js",
     "patch": "npm version patch",
     "lint": "eslint src/**/*.js",
-    "lint-fix": "eslint src/**/*.js --cache --fix"
+    "lint-fix": "eslint src/**/*.js --cache --fix",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,11 @@
   },
   "dependencies": {
     "give-me-a-joke": "^0.5.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
   }
 }
